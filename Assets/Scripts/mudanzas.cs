@@ -51,6 +51,11 @@ public class mudanzas : MonoBehaviour
                 return;
             }
 
+            cantHoras = distanciaAdondeLlegarEnKm / cantidadDeKmminimos;
+
+            precioTotalHoras = cantHoras * precioVehiculoActual;
+
+            Debug.Log("El total: $" + precioTotalHoras);
    
 
 
